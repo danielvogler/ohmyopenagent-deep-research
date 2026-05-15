@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json",
+  "agents": {
+    "oracle": {
+      "model": "anthropic/claude-opus-4-7",
+      "variant": "high"
+    },
+    "prometheus": {
+      "model": "anthropic/claude-opus-4-7"
+    },
+    "momus": {
+      "model": "anthropic/claude-opus-4-7",
+      "variant": "high"
+    },
+    "metis": {
+      "model": "google/gemini-3.1-pro-preview"
+    },
+    "sisyphus": {
+      "model": "google/gemini-3.1-pro-preview"
+    },
+    "sisyphus-junior": {
+      "model": "google/gemini-3.1-pro-preview"
+    },
+    "atlas": {
+      "model": "google/gemini-3.1-pro-preview"
+    },
+    "explore": {
+      "model": "google/gemini-3-flash-preview"
+    },
+    "multimodal-looker": {
+      "model": "google/gemini-3-flash-preview"
+    }
+  },
+  "categories": {
+    "ultrabrain": {
+      "model": "google/gemini-3.1-pro-preview",
+      "variant": "high"
+    },
+    "artistry": {
+      "model": "anthropic/claude-opus-4-7",
+      "variant": "high"
+    },
+    "deep": {
+      "model": "google/gemini-3.1-pro-preview",
+      "variant": "high"
+    },
+    "visual-engineering": {
+      "model": "google/gemini-3.1-pro-preview",
+      "variant": "high"
+    },
+    "unspecified-high": {
+      "model": "google/gemini-3.1-pro-preview"
+    },
+    "quick": {
+      "model": "google/gemini-3-flash-preview"
+    },
+    "unspecified-low": {
+      "model": "google/gemini-3-flash-preview"
+    },
+    "writing": {
+      "model": "google/gemini-3-flash-preview"
+    }
+  }
+}
